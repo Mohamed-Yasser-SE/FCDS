@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>FCDS</title>
+    <link rel="icon" type="image/png" href="./imgs/logo 1.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+    .section-card { border-radius: 1.25rem; }
+    .section-header h2 { letter-spacing: .2px; }
+    .table thead th { white-space: nowrap; }
+    </style>
+</head>
+
+<body class="d-flex  justify-content-center" style="background-image: url('./imgs/top.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    overscroll-behavior: none;">
+    <nav class="navbar navb d-flex justify-content-center navbar-expand-lg bg-body-tertiary position-fixed z-3 px-4 py-3 bg-opacity-50"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://alexu.edu.eg/" target="_blank"><img src="./imgs/logo 1.png" alt=""
+                    width="70px"></a>
+            <a class="nav-link lang " aria-current="page" href="./ungraduate_ar.html">AR</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarNavDropdown">
+                <ul class="navbar-nav  mx-lg-auto">
+                      <li class="nav-item ">
+                         <a class="nav-link "  href="./index.html">
+                                Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Scientific departments
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="file:///C:/Users/Victus/Downloads/%D8%A7%D8%B9%D9%85%D8%A7%D9%84.html">Business Analytics Program</a></li>
+
+                            <li><a class="dropdown-item" href="file:///C:/Users/Victus/Downloads/%D9%86%D8%B8%D9%85%20%D8%B0%D9%83%D9%8A%D9%87.html">Smart Systems Program</a></li>
+                            <li><a class="dropdown-item" href="file:///C:/Users/Victus/Downloads/%D8%A7%D8%B9%D9%84%D8%A7%D9%85.html">Media Analytics Program</a></li>
+                                                        <li><a class="dropdown-item" href="file:///C:/Users/Victus/Downloads/%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA.html">Health care analytics and informatics program</a></li>
+                                                        <li><a class="dropdown-item" href="file:///C:/Users/Victus/Downloads/security.html">Cybersecurity Program</a></li> 
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Academic programs
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="undergraduate.html">Undergraduate Stage</a></li>
+                            <li><a class="dropdown-item" href="postgraduate.html">Postgraduate Studies</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Students
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Student questionnaires
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Expatriates
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./Expatriates.html">Application procedures</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown  ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://fcds.alexu.edu.eg/images/Guides/charter_of_Ethics_for_Faculty_members.pdf" onclick="window.open(this.href, 'targetWindow', 'toolbar=no, location-no, status-no,menubar=no,scrollbars=yes,resizable=yes,');return false;">Code of Ethics for Faculty Members <br> and Their Assistants</a></li>
+                            <li><a class="dropdown-item" href="https://fcds.alexu.edu.eg/images/Guides/Directory_of_Cultural_Relations_2019.pdf" onclick="window.open(this.href, 'targetWindow', 'toolbar=no, location-no, status-no,menubar=no,scrollbars=yes,resizable=yes,');return false;">General Administration of  <br>Cultural Relations Guide</a></li>
+                            <li><a class="dropdown-item" href="https://fcds.alexu.edu.eg/images/Guides/Graduate_Studies_Guide_2019.pdf" onclick="window.open(this.href, 'targetWindow', 'toolbar=no, location-no, status-no,menubar=no,scrollbars=yes,resizable=yes,');return false;">Unified Guide to <br> Postgraduate Studies</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="d-flex flex-column justify-content-center">
+        <div class="container " style="margin-top: 190px;">
+            <section id="admission-requirements" class="mb-5">
+                <div class="card shadow-sm section-card cs">
+                    <div class="card-body p-4 p-md-5">
+                    <!-- Section Header -->
+                        <div class="section-header d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 mb-4">
+                            <div>
+                                <h2 class="h3 mb-1">Admission Requirements & Study System</h2>
+                                <h3 class="h4 mb-1 mt-3">General Admission Requirements</h3>
+                                <p class="text-secondary mb-0">
+                                The Faculty of Computers and Data Science, Alexandria University, 
+                                follows the admission regulations of Egyptian public universities.
+                                </p>
+                                <p class="text-secondary mb-0">
+                                International students from all countries are admitted upon approval from the General Administration 
+                                for Expatriates and the relevant authorities in the student’s home country, 
+                                and after passing the admission tests as determined by the Faculty Council.
+                                </p>
+                                <p class="text-secondary mb-0">
+                                Transfers from equivalent and non-equivalent faculties in higher academic years are also accepted.
+                                </p>
+                                <h3 class="h4 mb-1 mt-3">Language of Instruction</h3>
+                                <p class="text-secondary mb-0">
+                                English is the official language of instruction at the Faculty.
+                                </p>
+                                <h3 class="h4 mb-1 mt-3">Academic System </h3>
+                                <p class="text-secondary mb-0">
+                                The Bachelor’s program in Computers and Data Science is based on the credit hour and semester systems.
+                                The academic year is divided into two main semesters — Fall and Spring — each lasting 15 weeks.
+                                The Faculty Council may also approve an 8-week summer semester, during which weekly contact hours for courses are doubled.                            </p>
+                                <p class="text-secondary mb-0">
+                                At the end of each semester, students sit for both written and practical/applied examinations.                            </p>
+                                <p class="text-secondary mb-0">
+                                The program consists of 140 credit hours. In the first two semesters, 
+                                students study only the core courses in Computers and Data Science. 
+                                </p>
+                                <h3 class="h4 mb-1 mt-3">Credit Hour Requirements</h3>
+                                <p class="text-secondary mb-0">
+                                University Requirements: 10 credit hours
+                                </p>
+                                <p class="text-secondary mb-0">
+                                Faculty Requirements: 60 credit hours
+                                </p>
+                                <p class="text-secondary mb-0">
+                                Program Requirements: 70 credit hours
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container my-5">
+        <section id="assessment-grading" class="mb-5">
+            <div class="card shadow-sm section-card cs">
+                <div class="card-body p-4 p-md-5">
+                <!-- Section Header -->
+                    <div class="section-header d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 mb-4">
+                        <div>
+                            <h2 class="h3 mb-1">Assessment & Grading System</h2>
+                            <p class="text-secondary mb-0">Clear rules for marks distribution, passing, and the grade scale.</p>
+                        </div>
+                    </div>
+
+                    <div class="tab-content pt-4">
+                    <!-- English Pane -->
+                        <div class="tab-pane fade show active" id="en-pane" role="tabpanel" aria-labelledby="en-tab">
+                            <div class="row g-4">
+                                <div class="col-12 ">
+                                    <h6 class="text-uppercase text-secondary">Key Rules</h6>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item px-0">Maximum score per course: <strong>100 marks</strong>.</li>
+                                        <li class="list-group-item px-0">The Faculty Council determines the distribution of marks 
+                                            among practical exams, coursework, oral exams (if applicable), 
+                                            and the final written exam, according to the specific nature of 
+                                            each course as defined in the regulations.
+                                            The final written exam is allocated <strong>between 50 and 70 marks</strong>
+                                            and the oral exam (if any) shall not exceed <strong>10 marks</strong>.</li>
+                                        <li class="list-group-item px-0">A student is considered to have failed a course (Grade F) if they obtain
+                                            <strong>less than 30%</strong> 
+                                            of the marks in the final written exam, regardless of their total course score.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12">
+                                    <div class="table-responsive">
+                                        <table class="table align-middle">
+                                            <thead class="table-light">
+                                            <tr>
+                                                <th scope="col">Percentage</th>
+                                                <th scope="col">Points</th>
+                                                <th scope="col">Grade Letter</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr><td>90% and above</td><td>4.000</td><td>A</td></tr>
+                                                <tr><td>85% to less than 90%</td><td>3.666</td><td>A-</td></tr>
+                                                <tr><td>80% to less than 85%</td><td>3.333</td><td>B+</td></tr>
+                                                <tr><td>75% to less than 80%</td><td>3.000</td><td>B</td></tr>
+                                                <tr><td>70% to less than 75%</td><td>2.666</td><td>B-</td></tr>
+                                                <tr><td>65% to less than 70%</td><td>2.333</td><td>C+</td></tr>                        
+                                                <tr><td>60% to less than 65%</td><td>2.000</td><td>C</td></tr>
+                                                <tr><td>56% to less than 60%</td><td>1.666</td><td>C-</td></tr>
+                                                <tr><td>53% to less than 56%</td><td>1.333</td><td>D+</td></tr>
+                                                <tr><td>50% to less than 53%</td><td>1.000</td><td>D</td></tr>
+                                                <tr><td>Less than 50% of total marks</td><td>0.00</td><td>F</td></tr>
+                                                <tr><td>Less than 30% of final written exam</td><td>0.00</td><td>(F)</td></tr>
+                                                <tr><td>Absent from final (unexcused)</td><td>0.00</td><td>Abs</td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <div class="container my-5">
+            <section id="study-levels" class="mb-5">
+                <div class="card shadow-sm section-card cs">
+                    <div class="card-body p-4 p-md-5">
+                    <!-- Section Header -->
+                        <div class="section-header d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 mb-4">
+                            <div>
+                                <h2 class="h3 mb-1">Study Levels</h2>
+                                <h3 class="h4 mb-1 mt-3">Academic Load</h3>
+                                <p class="text-secondary mb-0">
+                                A. The minimum number of credit hours a student is allowed to register for in the Fall and Spring semesters is 12 credit hours, 
+                                except in graduation cases, 
+                                based on the recommendation of the Education and Student Affairs Committee and the approval of the Faculty Council.
+                                </p>
+                                <p class="text-secondary mb-0">
+                                B. The maximum number of credit hours a student is allowed to register for in the Fall and Spring semesters is 19 credit hours. 
+                                This may be increased to 21 credit hours for students who achieve a cumulative GPA of not less than 3.333 
+                                (see Article 9: Assessment and Grading System) 
+                                or for graduation cases during the final academic level for students who are not academically underperforming.
+                                </p>
+                                <p class="text-secondary mb-0">
+                                C. An academically underperforming student is not permitted to register for more than 12 credit hours in the Fall and Spring semesters
+                                </p>
+                                <p class="text-secondary mb-0">
+                                D. The maximum number of credit hours allowed in the Summer semester is 9 credit hours.                                
+                                </p>
+
+                                <h3 class="h4 mb-1 mt-3">Classification of Study Levels</h3>
+                                <p class="text-secondary mb-0">
+                                    Students are classified during 
+                                    their study into four academic levels according to the number of credit hours successfully completed, as follows:
+                                </p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>Level One:</strong> 0 to 28 credit hours</li>
+                                    <li class="list-group-item"><strong>Level Two:</strong> 29 to 64 credit hours</li>
+                                    <li class="list-group-item"><strong>Level Three:</strong> 65 to 98 credit hours</li>
+                                    <li class="list-group-item"><strong>Level Four:</strong> 99 to 140 credit hours</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container my-5">
+            <section id="academic-advising" class="mb-5">
+                <div class="card shadow-sm section-card cs">
+                    <div class="card-body p-4 p-md-5">
+                    <!-- Section Header -->
+                        <div class="section-header d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 mb-4">
+                            <div>
+                                <h2 class="h3 mb-1">Academic Advising</h2>
+                                <h3 class="h4 mb-1 mt-3">Academic Advisor</h3>
+                                <p class="text-secondary mb-0">
+                                    The Faculty Education and Student Affairs Council assigns an academic advisor to each student. 
+                                    The advisor is responsible for explaining the student’s study plan, monitoring its implementation, 
+                                    and guiding the selection of compulsory and elective courses in accordance with the plan. 
+                                    The academic advisor’s opinion is consultative and non-binding, 
+                                    and course registration is not approved without the advisor’s consent to the student’s academic load.
+                                </p>
+                                <h3 class="h4 mb-1 mt-3">Course Registration</h3>
+                                <p class="text-secondary mb-0">
+                                    A. The Faculty determines the compulsory and elective courses to be offered.
+                                </p>
+                                <p class="text-secondary mb-0">
+                                    B. A student may not register for any course that has a pre-requisite unless they have successfully completed that prerequisite. 
+                                    The Faculty Council sets the necessary regulations for this requirement.
+                                </p>
+                                <h3 class="h4 mb-1 mt-3">Add and Drop</h3>
+                                <p class="text-secondary mb-0">
+                                    A student has the right to add or drop any course starting from the beginning of the second week until 
+                                    the end of the third week of the regular semester, or until the end of the first week of the summer semester, 
+                                    after completing the Add/Drop form and obtaining the academic advisor’s approval.
+                                    Courses dropped during this period will not appear in the student’s academic record, 
+                                    provided that the change does not violate the student’s academic load requirements.
+                                </p>
+                                <h3 class="h4 mb-1 mt-3">Withdrawal from a Course</h3>
+                                <p class="text-secondary mb-0">
+                                    A student is allowed to withdraw from a course starting from the fourth week until 
+                                    the end of the twelfth week of the regular semester, or during the sixth week of the summer semester,
+                                    after completing the withdrawal form and obtaining the academic advisor’s approval, 
+                                    provided that the withdrawal does not violate the student’s academic load requirements (
+                                    see Article 10: Academic Load).
+                                    In such cases, the student will not earn credit hours for the withdrawn course, 
+                                    and a grade of Withdrawal (W) will be recorded in their academic record, 
+                                    provided they have not exceeded the allowed absence percentage before withdrawal.
+                                </p>
+                                <h3 class="h4 mb-1 mt-3">Course Repetition</h3>
+                                <p class="text-secondary mb-0">
+                                    A. If a student receives a grade of F, (F), Abs, or FW in any course, 
+                                    they must retake the course if it is compulsory. If it is elective, 
+                                    they may retake the same course or take an alternative elective. 
+                                    The grade earned in the repeated attempt will be counted.
+                                </p>
+                                <p class="text-secondary mb-0">
+                                    B. An academically underperforming student may retake a course to improve their Cumulative Grade Point Average (CGPA).
+                                </p>
+                                <p class="text-secondary mb-0">
+                                    C. For CGPA calculation, only the passing grade of the first eight repeated attempts at any course will replace the failing grade. 
+                                    Any repetitions beyond this limit will count both the failing and passing grades in the CGPA calculation.
+                                </p>
+                                <h3 class="h4 mb-1 mt-3">Academic Probation</h3>
+                                <p class="text-secondary mb-0">
+                                    A. A student is considered academically underperforming and placed on probation 
+                                    if their CGPA falls below 1.666 at the end of their second semester in the program, or below 2.000 in any subsequent semester.
+                                </p>
+                                <p class="text-secondary mb-0">
+                                    B. The academic advisor monitors the performance of underperforming students and recommends placing 
+                                    them on academic probation in the following semester. 
+                                    Such students are not permitted to register for more than 12 credit hours.
+                                </p>
+                                <p class="text-secondary mb-0">
+                                    C. A student on academic probation may retake a course for grade improvement, and the highest grade obtained will be recorded.
+                                </p>
+                                <p class="text-secondary mb-0">
+                                    D. If a student on academic probation achieves a CGPA of 2.000 or higher in any semester, the probation status will be lifted.
+                                </p>
+                                <p class="text-secondary mb-0">
+                                    E. A student will be dismissed from the Faculty if they have a CGPA below 2.000 after three consecutive semesters or four non-consecutive semesters.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container my-5">
+            <section id="attendance" class="mb-5">
+                <div class="card shadow-sm section-card cs">
+                    <div class="card-body p-4 p-md-5">
+                    <!-- Section Header -->
+                        <div class="section-header d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 mb-4">
+                            <div>
+                                <h2 class="h3 mb-1">Attendance</h2>
+                                <h3 class="h4 mb-1 mt-3">Attendance Requirement</h3>
+                                <p class="text-secondary mb-0">
+                                    A student is not permitted to sit for the end-of-semester final exam 
+                                    unless they have attended at least 75% of the practical teaching hours for the course.
+                                </p>
+                                <h3 class="h4 mb-1 mt-3">Absence from the Final Exam</h3>                               
+                                <p class="text-secondary mb-0">
+                                    A. If a student is absent from the final exam of any course due to a compelling excuse accepted 
+                                    by the Faculty Education and Student Affairs Committee within a maximum of two days from the exam date, 
+                                    and has submitted an approved Incomplete Course Request, 
+                                    they will be granted a temporary grade of Incomplete (I) in that course, provided that:<br>
+                                    They have obtained at least 60% of the coursework marks during the semester.<br>
+                                    They were not denied entry to the final exam due to attendance issues (see Article 16: Attendance).
+                                </p>
+                                <p class="text-secondary mb-0">
+                                    B. For a course graded as Incomplete (I), the student will be given the opportunity 
+                                    to sit for the final exam during the first week of the following semester or as determined by the Faculty Council.
+                                    The student’s total grade in the course will then be calculated as the sum 
+                                    of the marks obtained in the final exam plus the coursework marks previously earned during the semester.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container my-5">
+            <section id="grad-and-honors" class="mb-5">
+                <div class="card shadow-sm section-card cs">
+                    <div class="card-body p-4 p-md-5">
+                    <!-- Section Header -->
+                        <div class="section-header d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 mb-4">
+                            <div>
+                                <h2 class="h3 mb-1">Graduation and Honors</h2>
+                                <p class="text-secondary mb-0">
+                                    A. The college allows students to graduate within the same academic year in the following sessions:
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><strong>January session:</strong> After the end of the Fall semester of the academic year.</li>
+                                        <li class="list-group-item"><strong>June session:</strong> After the end of the Spring semester of the academic year</li>
+                                        <li class="list-group-item"><strong>September session:</strong> After the end of the Summer semester of the academic year.</li>
+                                    </ul>
+                                </p>
+                                <p class="text-secondary mb-0">
+                                    B. An honors degree is awarded to a student who completes graduation requirements within no more than 9 regular semesters, 
+                                    provided that their semester GPA is not less than 3.333 in any semester, their cumulative GPA (CGPA) is <strong> at least 3.666</strong> , 
+                                    and they have not received a grade of F, FW, or U in any course, 
+                                    nor have they been subjected to any disciplinary penalty during their studies.
+                                </p>
+                                <hr>
+                                <p class="text-secondary mb-0">
+                                    If the CGPA of the top graduates is equal during any graduation session in the same academic year, 
+                                    the result will be rounded to four decimal places, and preference will be given according to the criteria set by the College Council, 
+                                    the standards approved by the University Council, 
+                                    and all relevant rules, regulations, and laws stipulated in the Universities Organization Law and its executive regulations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container my-5">
+            <section id="program" class="mb-5">
+                <div class="card shadow-sm section-card cs">
+                    <div class="card-body p-4 p-md-5">
+                    <!-- Section Header -->
+                        <div class="section-header d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 mb-4">
+                            <div>
+                                <h2 class="h3 mb-1">Changing the Study Program</h2>
+                                <p class="text-secondary mb-0">
+                                    A student may change their study program after spending a period in the same faculty, 
+                                    provided that they meet the admission requirements of the new program, 
+                                    obtain the opinion of the academic advisor, receive the approval of the Faculty’s Education and 
+                                    Student Affairs Committee, and have the change ratified by the Faculty Council.
+                                </p>
+                                <br>
+                                <p class="text-secondary mb-0">
+                                    Courses previously studied and successfully completed by the student may be counted, 
+                                    provided that they are among the requirements of the new study program. 
+                                    Any remaining courses will not be counted toward the credit hours of the new study program.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+    </div>
+
+        
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
