@@ -56,7 +56,7 @@ body{
     transform: scale(1.04);
   }
 }
-.card::before{
+.cc::before{
     content: "";
     position: absolute;
     top: 100%;
@@ -68,27 +68,28 @@ body{
     z-index: 5;
     transition: top 0.8s ease;
 }
-.card{
+.cc{
     overflow: hidden;
 }
-.card img{
+.cc img{
     transition: transform 2s ease;
 }
 
 
-.card:hover::after{
+.cc:hover::after{
 top: 0px;
 }
-.card:hover::before{
+.cc:hover::before{
 top: -20%;
 }
-.card:hover{
+.cc:hover{
     background-color: black;
     box-shadow: 2px 2px 30px white;
     transition: 0.5s;
       animation: scaleUp 0.4s forwards;
 
 }
+
 .slider{
 
     border:  #383639 2px solid;
