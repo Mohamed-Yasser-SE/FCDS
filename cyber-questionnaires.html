@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCDS</title>
+    <link rel="icon" type="image/png" href="./imgs/logo 1.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+    body {
+        background-color: #121212;
+        color: #eee;
+        }
+    h1{
+        color: #00e0c6;
+    }
+    h2 {
+        color: #00e0c6; 
+        font-weight: bold;
+        margin-top: 40px;
+    }
+    p.section-desc {
+        color: #aaa;
+        font-style: italic;
+        margin-bottom: 25px;
+    }
+.subject-card {
+    display: block;
+    background-color:#212529;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 12px !important;    
+    text-decoration: none;
+    color: #eee;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent; /* invisible border initially */
+}
+
+.subject-card a{
+    font-size: 14px;
+}
+
+/* Hover effect */
+.subject-card:hover {
+    border-color: #00e0c6; 
+    background-color: #1a1e21 !important;
+    color: #eee !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+}
+    ul {
+        list-style: none; 
+        padding-left: 0;  
+    }
+    </style>
+</head>
+<body class="d-flex  justify-content-center">
+    <nav class="navbar navb d-flex justify-content-center navbar-expand-lg bg-body-tertiary position-fixed z-3 px-4 py-3 bg-opacity-50"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand logo_AU" href="https://alexu.edu.eg/" target="_blank"><img src="./imgs/logo 1.png" alt=""
+                    ></a>
+            <a class="nav-link lang  " aria-current="page" href="./index_ar.html">AR</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarNavDropdown">
+               
+                <ul class="navbar-nav  mx-lg-auto">
+                     <li class="nav-item nd ">
+                         <a class="nav-link "  href="./index.html" >
+                                Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown nd">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Scientific departments
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="./انجليزى اعمال2.html">Business Analytics Program</a></li>
+
+                            <li><a class="dropdown-item" href="./2نظم ذكيه انجليزى.html">Smart Systems Program</a></li>
+                            <li><a class="dropdown-item" href="./2 انجليزى اعلام .html">Media Analytics Program</a></li>
+                                                        <li><a class="dropdown-item" href="./انجليزى معلوماتيه 2.html">Health care analytics and informatics program</a></li>
+                                                        <li><a class="dropdown-item" href="./security3 انجليزى.html">Cybersecurity Program</a></li> 
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown nd">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Academic programs
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="undergraduate.html">Undergraduate Stage</a></li>
+                            <li><a class="dropdown-item" href="postgraduate.html">Postgraduate Studies</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown nd">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Students
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./CGPA2.html">CGPA</a></li>
+                            <li><a class="dropdown-item" href="./البريد2 .html">Email</a></li>
+                            <li><a class="dropdown-item" href="./جدول الامتحانات 2.html">Exam schedule </a></li>
+                            <li><a class="dropdown-item" href="./جدول المحاضرات2.html">Lecture schedule </a></li>
+                            <li><a class="dropdown-item" href="./النتائج2.html">the results</a></li>
+                            <li><a class="dropdown-item" href="مجلس اتحاد الطلاب 2.html">Students' Union</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Students Questionnaires
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="ds-questionnaires.html">Data Science Program</a></li>
+                            <li><a class="dropdown-item" href="ai-questionnaires.html">AI Program</a></li>
+                            <li><a class="dropdown-item" href="business-questionnaires.html">Business Program</a></li>
+                            <li><a class="dropdown-item" href="media-questionnaires.html">Media Program</a></li>
+                            <li><a class="dropdown-item" href="hc-questionnaires.html">HealthCare Program</a></li>
+                            <li><a class="dropdown-item" href="cyber-questionnaires.html">Cyber Security Program</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown nd">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Expatriates
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./Expatriates.html">Application procedures</a></li>
+                        
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown nd ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://fcds.alexu.edu.eg/images/Guides/charter_of_Ethics_for_Faculty_members.pdf" onclick="window.open(this.href, 'targetWindow', 'toolbar=no, location-no, status-no,menubar=no,scrollbars=yes,resizable=yes,');return false;">Code of Ethics for Faculty Members <br> and Their Assistants</a></li>
+                            <li><a class="dropdown-item" href="https://fcds.alexu.edu.eg/images/Guides/Directory_of_Cultural_Relations_2019.pdf" onclick="window.open(this.href, 'targetWindow', 'toolbar=no, location-no, status-no,menubar=no,scrollbars=yes,resizable=yes,');return false;">General Administration of  <br>Cultural Relations Guide</a></li>
+                            <li><a class="dropdown-item" href="https://fcds.alexu.edu.eg/images/Guides/Graduate_Studies_Guide_2019.pdf" onclick="window.open(this.href, 'targetWindow', 'toolbar=no, location-no, status-no,menubar=no,scrollbars=yes,resizable=yes,');return false;">Unified Guide to <br> Postgraduate Studies</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+
+    <div class="d-flex flex-column justify-content-center ">
+        <div class="container" style="margin-top: 180px;">
+            <h1 lass="mb-3">Cyber Security</h1>
+            <!-- Section for Level 1 -->
+            <h2 class="mb-3">First Level - المستوى الأول</h2>
+            <p class="section-desc">Choose the subject to fill its form — اختر المادة لملء استمارتها</p>
+            <div class="row mb-5">
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfsHm5UgHTmruJr4yPSwGP1_iR45QvbKNonHzIR9NBVahX0dw/viewform" target="_blank" class="list-group-item list-group-item-action subject-card">Calculus</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfNRvM61CfBG2NFilBlcDK7kSi_BtZ1UMfI_PraTN7hiCms4w/viewform" target="_blank" class="list-group-item list-group-item-action subject-card">Linear Algebra</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf4bpO-CdevzSzmdntvDskwO3o7zzODTQbQzulqmPYv-BOUAA/viewform" target="_blank" class="list-group-item list-group-item-action subject-card">Inro To CS</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSddr1UeWPWIbAegTWbGGQ6ExjefyGUFky7Mit8JlspS7ltcDw/viewform" target="_blank" class="list-group-item list-group-item-action subject-card">Data Science</a></li>
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Probability 1</a></li>
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Intro To AI</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf6KYovoad9HcQg1t9bAUYDCMRSFTUXnaI-SE3jlZAX-r5_0g/viewform" target="_blank" class="list-group-item list-group-item-action subject-card">Programming 1</a></li>
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Discrete Math</a></li>
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Critical Thinking</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Programming 2</a></li>
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Data Structures</a></li>
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Innovation</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section for Level 2 -->
+            <h2 class="mb-3">Second Level - المستوى الثاني</h2>
+            <p class="section-desc">Choose the subject to fill its form — اختر المادة لملء استمارتها</p>
+
+            <div class="row mb-5">
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSekMxd382J2qwJWJrBnVji69l4-L-s1zBRdHAC859egQ1nBTA/viewform" target="_blank" class="list-group-item list-group-item-action subject-card">Probability 2</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSduQ3CKxBy37r775aQdzS5L1gyHhEdHq5Ur3gkiB-zkAvs-Cg/viewform" target="_blank" class="list-group-item list-group-item-action subject-card">Intro To Databases</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScKRXtzJRe8na56YBRzaY5Sm1OLFLTR_FZMJHWOcFLr8Ihn6Q/viewform" target="_blank" class="list-group-item list-group-item-action subject-card">Numerical</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Operating Systems</a></li>
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Advanced Calculus</a></li>
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">DS Methodology</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Cloud Computing</a></li>
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Web Development</a></li>
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Machine Learning</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Data Mining</a></li>
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Data Science Tools</a></li>
+                        <li><a href="#" target="_blank" class="list-group-item list-group-item-action subject-card">Regression</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section for Level 3 -->
+            <h2 class="mb-3">Third Level - المستوى الثالث</h2>
+            <p class="section-desc">Choose the subject to fill its form — اختر المادة لملء استمارتها</p>
+
+            <div class="row mb-5">
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Algorithms</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Database 2</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Networks 2</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Algorithms</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Database 2</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Networks 2</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Algorithms</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Database 2</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Networks 2</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Algorithms</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Database 2</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Networks 2</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section for Level 4 -->
+            <h2 class="mb-3">Fourth Level - المستوى الرابع</h2>
+            <p class="section-desc">Choose the subject to fill its form — اختر المادة لملء استمارتها</p>
+            <div class="row mb-5">
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Machine Learning</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">AI</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Graduation Project</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Machine Learning</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">AI</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Graduation Project</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Machine Learning</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">AI</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Graduation Project</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Machine Learning</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">AI</a></li>
+                        <li><a href="#" class="list-group-item list-group-item-action subject-card">Graduation Project</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

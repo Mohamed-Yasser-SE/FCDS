@@ -1,20 +1,34 @@
+*{
+    margin: 0;
+}
+
 body{
  background-color: #1c1b1d;
  overscroll-behavior: none;
 }
+
+body, html {
+  overflow-x: hidden; /* Hides horizontal scrollbar */
+}
+
 .navb{
+    
     margin: 5px;
     width: 98%;
-    height: 120px;
+    height: 98px;
     border-radius: 7px;
     border: 2px solid #383639;
     box-shadow: 2px 2px 50px #0dcdb772;
     backdrop-filter: blur(2px);
 }
+.logo_AU img{ 
+    width: 50px;
+}
 .lang{
     color:#0dcdb7 ;
     font-size: large;
     margin-left: 20PX;
+    margin-right: 20px;
 }
 .lang:hover{
     color: #fff;
@@ -25,10 +39,20 @@ body{
     color: #0dcdb7;
     border-bottom: 2px solid #0dcdb7;
 }
+.navbar-collapse.show {
+  background-color: #151515 ;
+  border: 2px solid #0dcdb7;
+  border-radius : 10px;
+  padding : 10px;
+  box-shadow: 2px 2px 50px #0dcdb772;
+
+}
+
 .top{
     
-    background-image: url("../imgs/background.webp");
+    background-image: url("../imgs/vecteezy.jpg");
     width: 100%;
+    background-size: cover;
    }
 .topchild{
     
@@ -37,7 +61,7 @@ body{
     border: 2px solid#383639;
     box-shadow: 2px 2px 50px #0dcdb772;
     backdrop-filter: blur(2px);
-    margin-top: 140px;
+    margin-top: 117px;
     margin-bottom: 4px;
 
     min-height:600px ;
@@ -111,4 +135,13 @@ top: -20%;
 .cs{ 
     border:  gray solid 2px;
 
+}
+.team_names{
+    color: #0dcdb7;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.team_names:hover{
+    color: #fff;
 }
