@@ -63,7 +63,8 @@ body, html {
     backdrop-filter: blur(2px);
     margin-top: 117px;
     margin-bottom: 4px;
-
+    margin-left: 90px;
+    margin-right: 90px;
     min-height:600px ;
     width:90% ;
 
@@ -144,4 +145,5 @@ top: -20%;
 }
 .team_names:hover{
     color: #fff;
+
 }
